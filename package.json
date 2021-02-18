@@ -1,0 +1,19 @@
+{
+  "name": "comments_exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node start-server.js",
+    "client": "node start-client.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "json-beautify": "^1.0.1",
+    "uuid": "^3.2.1"
+  }
+}
